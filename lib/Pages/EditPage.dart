@@ -377,7 +377,7 @@ class _EditPageState extends State<EditPage> {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.all(25.0),
+                    padding: EdgeInsets.all(20.0),
                     child: TextFormField(
                       controller: comptitlecontroller,
                       decoration: InputDecoration(
@@ -416,7 +416,7 @@ class _EditPageState extends State<EditPage> {
                       controller: contactcontroller,
                       keyboardType: TextInputType.number,
                       decoration: InputDecoration(
-                          labelText: 'Contact',
+                          labelText: 'Contact/Extension No.',
                           enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10.0))),
                     ),

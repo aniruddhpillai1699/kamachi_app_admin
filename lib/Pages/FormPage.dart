@@ -404,7 +404,7 @@ class _FormPageState extends State<FormPage> {
                       controller: contactcontroller,
                       keyboardType: TextInputType.number,
                       decoration: InputDecoration(
-                          labelText: 'Contact',
+                          labelText: 'Contact/Extension No.',
                           enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10.0))),
                     ),
