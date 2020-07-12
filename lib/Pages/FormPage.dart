@@ -525,16 +525,10 @@ class _FormPageState extends State<FormPage> {
                       title: TextFormField(
                         controller: stdatecontroller,
                         decoration: InputDecoration(
-                          labelText: 'Status Date*',
+                          labelText: 'Status Date',
                           enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10.0)),
                         ),
-                        validator: (value) {
-                          if (value.isEmpty) {
-                            return 'Please enter some text';
-                          }
-                          return null;
-                        },
                       ),
                       onTap: _pickedDate1,
                       leading: Icon(Icons.calendar_today),
